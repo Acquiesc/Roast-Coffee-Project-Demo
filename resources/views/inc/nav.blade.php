@@ -1,3 +1,4 @@
+<!--Navigation Header-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3 fixed-top">
     <a class="navbar-brand" href="/">Roast Coffee Shop</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -9,13 +10,13 @@
           <a class="nav-link" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Menu</a>
+          <a class="nav-link" href="/menu">Menu</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Catering</a>
+          <a class="nav-link" href="/catering">Catering</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="/contact">Contact</a>
         </li>
       </ul>
     </div>

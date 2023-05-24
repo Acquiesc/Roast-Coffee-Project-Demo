@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Models\Product;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,4 +17,17 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
+});
+
+Route::get('/menu', function() {
+    $products = Product::all();
+    return view('menu')->with('products', $products);
+});
+
+Route::get('/catering', function() {
+    return view('catering');
+});
+
+Route::get('/contact', function() {
+    return view('contact');
 });

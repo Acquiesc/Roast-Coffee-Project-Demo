@@ -64,7 +64,7 @@
       <p>We offer highly competitive prices and packages to ensure your day is even more special.</p>
       <p>Perfect for weddings, parties, business meetings, and more!</p>
       <div class="text-center mt-5">
-        <a class="btn btn-outline-light btn-lg" href="/menu" role="button">Learn More</a>
+        <a class="btn btn-outline-light btn-lg" href="/catering" role="button">Learn More</a>
       </div>
     </div>
     <div class="col-12 col-lg-5 mask p-3 text-white border border-dark" style="background-color: rgba(0,0,0,.7);">

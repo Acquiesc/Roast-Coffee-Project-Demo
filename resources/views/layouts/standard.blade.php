@@ -34,6 +34,7 @@
 
     
 
+        <!--Main Content-->
         <main class="">
             @include('inc.messages')
             
