@@ -1,0 +1,21 @@
+/*General Styling*/
+input::placeholder {
+    color: red;
+}
+
+/*Index Page*/
+#hero {
+    height: calc(100vh);
+    background-image: url('/images/hero-coffee.jpg');
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+#catering {
+    height: fit-content;
+    background-image: url('/images/catering.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
