@@ -69,8 +69,7 @@
     </div>
     <div class="col-12 col-lg-5 mask p-3 text-white border border-dark" style="background-color: rgba(0,0,0,.7);">
       <h1 class = "text-center mb-5">Reserve Your Spot Now</h1>
-      <form>
-
+      <form class="">
         <div class="row">
           <div class="col-12 col-md-6">
             <div class="mb-3">
@@ -85,39 +84,39 @@
             </div>
           </div>
         </div>
-
+  
         <div class="row">
-          <div class="col">
+          <div class="col-12 col-md-6">
             <div class="mb-3">
               <label for="email" class="form-label">Email Address</label>
               <input type="email" class="form-control" id="email" name="email" placeholder="Email...">
             </div>
           </div>
-          <div class="col">
+          <div class="col-12 col-md-6">
             <div class="mb-3">
               <label for="phone" class="form-label">Phone Number</label>
               <input type="tel" class="form-control" id="phone" name="phone" placeholder="(xxx) xxx-xxxx">
             </div>
           </div>
         </div>
-
+  
         <div class="row"> 
-          <div class="col">
+          <div class="col-12 col-md-6">
             <div class="mb-3">
               <label for="date" class="form-label">Date</label>
               <input type="date" class="form-control" id="date" name="date">
             </div>
           </div>
-          <div class="col">
+          <div class="col-12 col-md-6">
             <div class="mb-3">
               <label for="location" class="form-label">Location</label>
               <input type="text" class="form-control" id="location" name="location" placeholder="Address...">
             </div>
           </div>
         </div>
-
-        <div class="row">
-          <div class="col">
+  
+        <div class="row justify-content-center">
+          <div class="col-12">
             <div class="mb-3">
               <label for="num_guests" class="form-label">Number of Guests</label>
               <select class="form-select" name="num_guestss">
@@ -129,9 +128,9 @@
             </div>
           </div>
         </div>
-
-        <div class="row">
-          <div class="col">
+  
+        <div class="row justify-content-center">
+          <div class="col-12">
             <label for="notes">Comments</label>
             <textarea class="form-control" rows="5" placeholder="Additional notes..." id="notes" name="notes"></textarea>
           </div>
@@ -140,9 +139,9 @@
         <div class="text-center mt-3">
           <button type="submit" class="btn btn-primary">Reserve Spot</button>
         </div>
-
+  
         <div class="row text-center mt-3">
-          <p class = "fw-light">Please note that a reservation is not guaranteed until it has been confirmed by the store</p>
+          <p class = "fw-light">*Please note that a reservation is not guaranteed until it has been confirmed by the store</p>
         </div>
       </form>
     </div>

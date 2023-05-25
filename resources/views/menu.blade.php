@@ -37,7 +37,7 @@
 
 <!--Store Display-->
 <section class="container mt-5">
-    <div id="products-container" class="row align-items-center">
+    <div id="products-container" class="row align-items-center justify-evenly-below-desktop">
         @foreach($products as $product)
         <div class="col-auto mb-3">
             <div class="card" style="width: 18rem;">
