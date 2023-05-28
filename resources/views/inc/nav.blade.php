@@ -1,6 +1,9 @@
 <!--Navigation Header-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3 fixed-top">
-    <a class="navbar-brand" href="/">Roast Coffee Shop</a>
+    <div class="d-flex gap-1">
+      <img src="/images/coffee-cup-icon.png" alt="" width="40" height="40">
+      <a class="navbar-brand" href="/">Roast Coffee Shop</a>
+    </div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

@@ -18,7 +18,7 @@
 </section>
 
 <!--Services section-->
-<section class="container d-flex flex-column mt-5 gap-5 text-center">
+<section class="container d-flex flex-column my-5 pb-5 gap-5 text-center">
     <div class="row">
         <div class="col">
             <h1>Our Services</h1>
@@ -60,7 +60,7 @@
 <section id="catering-order" class="container-fluid d-flex justify-content-center align-items-center my-5" style="padding: 0;">
     <div class="container-fluid mask p-5 text-white border border-dark" style="background-color: rgba(0,0,0,.5);">
         <h1 class = "text-center mb-5">Get Your Free Quote Today</h1>
-        <form class="">
+        <form class="" id="catering-order-form">
           <div class="row">
             <div class="col-12 col-md-6">
               <div class="mb-3">

@@ -1,6 +1,6 @@
 <!--Navigation Footer-->
 <div class="container">
-    <footer class="py-5">
+    <footer class="pt-5">
       <div class="row">
         <div class="col-6 col-md-2 mb-3">
           <h5>Company</h5>

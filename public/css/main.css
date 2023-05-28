@@ -33,3 +33,10 @@ input::placeholder {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#catering-order-form {
+    max-width: 625px;
+    margin: 0 auto;
+}
+
+/*Contact Page*/
